@@ -1,0 +1,78 @@
+#miTitulo{
+    font-size: 2.5em;
+    color: darkcyan;
+    background-color: blue;
+    width: 100vw;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#titulo2{
+    background-color: green;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+body{
+    background-color: aqua;
+}
+.cursivas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-style: oblique;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+#parrafo3{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.color1{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+}
+.galaxia{
+    width: 15vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px double blue;
+    border-radius: 10px;
+}
+.color1:hover{
+    background-color: blueviolet;
+    transition-duration: 1.5s;
+}
+.color2{
+    background-color: red;
+    display: flex;
+}
+.galaxia2{
+    width: 20vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px solid black;
+}
+.color2:hover{
+    background-color: orange;
+    transition-duration: 0.5s;
+}
+.color3{
+    background-color: blueviolet;
+    display: flex;
+}
+.galaxia3{
+    width: 25vw;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px dotted purple;
+    border-radius: 25px;
+}
+.color3:hover{
+    background-color: purple;
+    transition-duration: 0.1s;
+}
